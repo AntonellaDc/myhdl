@@ -14,4 +14,5 @@ release:
 	- rm MANIFEST 
 	- rm CHANGELOG.txt
 	hg glog > CHANGELOG.txt
-	python setup.py sdist 
+	python setup.py sdist
+	- echo 'hello'
